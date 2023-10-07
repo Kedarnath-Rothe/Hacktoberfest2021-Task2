@@ -1,8 +1,91 @@
-h1{
-    text-align: center;
-    color:red;
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(300deg ,#8888907e,#9290a7 ,rgb(152, 231, 198)); 
+    background-size: 180% 180%;
+    animation: gradient-animation 6s ease infinite;
+    margin: 0;
+    padding: 20px;
 }
 
-p{
-    font-size: 10px;
+ 
+  @keyframes gradient-animation {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+} 
+
+
+header {
+    text-align: center;
+    background: linear-gradient(300deg ,#9aaeb27e,#7ab68b ,rgb(0, 0, 0)); 
+    background-size: 180% 180%;
+    animation: gradient-animation 6s ease infinite;
+    padding: 20px;
+}
+
+h1 {
+    color: purple;
+}
+
+.info-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.name {
+    color: blue;
+    font-size: 18px;
+}
+
+.country {
+    font-style: italic;
+    font-size: 18px;
+}
+.age {
+    color: purple;
+    font-size: 18px;
+}
+
+.age-content {
+    font-weight: bold;
+}
+.country-content {
+    font-weight: bold;
+}
+
+.color-green {
+    color: green;
+}
+
+.color-white {
+    color: white;
+}
+
+.color-red {
+    color: red;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.portrait-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.portrait-image {
+    max-width: 80%;  
+    box-shadow: 0px 0px 20px 5px rgb(243, 178, 1);
+    border-radius: 200px;
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto; 
+    width: 200px; 
 }
